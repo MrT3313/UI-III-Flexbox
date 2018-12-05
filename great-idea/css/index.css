@@ -169,3 +169,83 @@ footer address {
 	margin-bottom: 75px;
 
 }
+
+/* -------------SERVICES PAGE ----------*/
+/* -------------SERVICES PAGE ----------*/
+/* -------------SERVICES PAGE ----------*/
+/* -------------SERVICES PAGE ----------*/
+/* -------------SERVICES PAGE ----------*/
+
+/* NAV - SERVICES */
+	/* See Above HTML */
+
+/* Services Header */
+.services-header {
+	margin: 25px 0px 25px 0px;
+	
+}
+
+/* Services Content */
+.container-services-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	margin: 25px 0px 25px 0px;
+
+	justify-content: space-between;
+}
+
+	.services-item {
+		display: flex;
+		flex-direction: column;
+
+		width: 430px;
+
+		padding: 25px;
+		margin: 10px 0px 10px 0px;
+		background-color: rgb(241, 241, 241);
+
+		border: 1px solid black;
+	}
+
+		.content-button-learnMore {
+			margin-top: 25px;
+			padding: 10px 5px 10px 5px;
+
+			width: 40%;
+
+			justify-content: flex-start;
+			text-align: center;
+
+			background-color: white;
+			border: 1px solid black;
+
+			
+
+		}
+
+		.content-button-learnMore:hover {
+			cursor: pointer;
+		}
+
+		
+
+/* Services Footer */
+.services-footer {
+	display: flex;
+	padding-top: 25px;
+	margin-bottom: 50px;
+}
+
+	.services-footer-container {
+		padding-right: 25px;
+	}
+	.services-footer-container li {
+		margin-top: 10px;
+		list-style-type: disc;
+		list-style-position: inside;
+	}
+
+
+
